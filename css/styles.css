@@ -23,6 +23,9 @@ body {
 .studio {
     color: #000000;
 }
+.studio-footer {
+    color: #FFFFFF;
+}
 .header {
     background: #FFFFFF;
 }
@@ -32,6 +35,9 @@ body {
         line-height: 1.14;
         letter-spacing: 0.02em;    
         color: var(--title-color)
+}
+.active {
+    color: var(--accent);
 }
 .header-link:hover, 
 .header-link:focus {
@@ -61,13 +67,11 @@ body {
         color: #FFFFFF;
 }
 .hero-btn {
+    font-family: inherit;
     cursor: pointer;
     font-weight: 700;
         font-size: 16px;
         line-height: 1.90;
-        display: flex;
-        align-items: center;
-        text-align: center;
         letter-spacing: 0.06em; 
         color: #FFFFFF;
         background: #2196F3;
@@ -76,9 +80,6 @@ body {
 .hero-btn:focus {
     background-color: #188ce8;
     color: #FFFFFF;
-}
-.features {
-    background: #E5E5E5;
 }
 .features-title {
         font-size: 36px;
@@ -98,9 +99,6 @@ body {
         font-size: 14px;
         line-height: 0.58;
         letter-spacing: 0.03em;
-}
-.direction {
-    background: #E5E5E5;
 }
 .direction-title {
         font-size: 36px;
@@ -128,7 +126,6 @@ body {
         color: var(--title-color);
 }
 .team-desc {
-        font-size: 16px;
         line-height: 1.18;
         text-align: center;
         letter-spacing: 0.03em;
@@ -137,7 +134,7 @@ body {
     background: #2F303A;
 }
 .footer-address {
-    font-weight: 400;
+        font-style: normal;
         font-size: 14px;
         line-height: 1.17;
         letter-spacing: 0.03em;
@@ -148,7 +145,7 @@ body {
     color: var(--accent);
 }
 .footer-contact {
-font-weight: 400;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -158,10 +155,12 @@ font-weight: 400;
 .footer-contact:focus {
     color: var(--accent);
 }
-.projects {
-    background: #E5E5E5;
-}
 .projects-btn {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing: 0.03em;
+    font-family: inherit;
     cursor: pointer;
     color: var(--title-color);
     background: #F5F4FA;
@@ -178,7 +177,6 @@ font-size: 18px;
     color: var(--title-color);
 }
 .projects-desc {
-    font-size: 16px;
         line-height: 1.87;
         letter-spacing: 0.03em;
 }
